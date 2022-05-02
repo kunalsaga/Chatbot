@@ -1,4 +1,4 @@
-# import nltk
+import nltk
 
 # nltk.download('punkt')
 
@@ -19,4 +19,9 @@ a="Hello, thanks for visiting"
 print(a)
 a=tokenize(a)
 print(a)
+
+words = ["organize", "organizes", "organizing"]
+stemmedwords = [stem(w) for w in words]
+print(stemmedwords)
+
 
